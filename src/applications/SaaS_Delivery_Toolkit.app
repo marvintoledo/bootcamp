@@ -2,7 +2,6 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <description>Project Management Tool</description>
-    <formFactors>Large</formFactors>
     <label>SaaS Delivery Toolkit</label>
     <tab>Release__c</tab>
     <tab>Business_Driver__c</tab>

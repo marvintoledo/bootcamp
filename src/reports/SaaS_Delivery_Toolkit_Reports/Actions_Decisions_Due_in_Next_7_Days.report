@@ -24,7 +24,6 @@
     <filter>
         <criteriaItems>
             <column>Key_Action_Decision__c.Due_Date__c</column>
-            <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>NEXT_N_DAYS:6,TODAY</value>
         </criteriaItems>
