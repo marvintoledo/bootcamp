@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Custom_Object__c</members>
+        <members>SaaS_Delivery_Toolkit</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Application_Inventory__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Application_Inventory__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>SaaS_Delivery_Toolkit_Dashboards</members>
+        <members>SaaS_Delivery_Toolkit_Dashboards/Daily_Stand_Up_Dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Application_Inventory__c-Application Inventory Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Admin</members>
+        <members>Standard</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>SaaS_Delivery_Toolkit_Reports</members>
+        <members>SaaS_Delivery_Toolkit_Reports/Actions_Decisions_Due_in_Next_7_Days</members>
+        <name>Report</name>
     </types>
     <version>40.0</version>
 </Package>
